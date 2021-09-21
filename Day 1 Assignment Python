@@ -1,0 +1,12 @@
+print("Hello ! welcome ")
+
+P = float(input(" \n Enter the  principle  amount : \n "))
+
+N = float(input(" \n Enter the number of years : \n "))
+
+R = float(input(" \n Enter the rate of interest : \n "))
+
+SI = (P * N * R )/100
+
+print("Simple Interest : {}  \n ". format(SI))
+
